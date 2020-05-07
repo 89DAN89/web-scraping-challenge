@@ -7,7 +7,7 @@ warnings.filterwarnings('ignore')
 
 mars_data = {}
 
-def chrome_driver();=:
+def chrome_driver():
     executable_path = {'executable_path': 'chromedriver'}
     return Browser('chrome', **executable_path, headless=False)
 
@@ -140,7 +140,7 @@ def mars_hemispheres_scraper():
         soup = BeautifulSoup(html5, 'lxml')
         hemisphere_image_urls.append({"title" : title, "img_url" : img_url})
 
-    mars_info['Hemisphere Image UTLs'] = hemisphere_image_urls
+    mars_data['Hemisphere Image UTLs'] = hemisphere_image_urls
 
     return mars_data
 
