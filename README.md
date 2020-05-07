@@ -1,1 +1,2 @@
 # web-scraping-challenge
+I was not able to get the webpage to upload my scraped data, I tried to upload the data into pymongo using a Json File that I made, just to see if it would work but it still did not. I was just trying to get my work in, in a timely fashion, but I know that most of it does not work. If I could take some time with you to understand how to get the final product it would be greatly appreciated, and am willing to accept any grade on this as long as I understand it better.
